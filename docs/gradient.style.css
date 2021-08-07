@@ -1,0 +1,32 @@
+body {
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to right, #ff0000, #ffff00);
+}
+
+#inputs {
+    display: inline-flex;
+}
+
+input{
+    width: 44px;
+    height: 25px;
+    cursor: pointer;
+    color: red;
+    padding: 0px;
+    margin: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border: 0px;
+    background-color: transparent;
+    flood-color: darkred;
+}
+
+.colorselector {
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border: 10px, solid, black;
+}
